@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581749744576",
+    "project_id": "pharma-go-97398",
+    "storage_bucket": "pharma-go-97398.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581749744576:android:b784943daf31baea9ade25",
+        "android_client_info": {
+          "package_name": "com.kodisinghesofttech.pharma_go_v1_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581749744576-n0pn0ppkob304ebmn3aeg4er7v2r4hnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kodisinghesofttech.pharma_go_v1_app",
+            "certificate_hash": "f6b1ce0f63c79158cab517f39b4db8e12ada92a5"
+          }
+        },
+        {
+          "client_id": "581749744576-g7eoj0ttvqjoishtluvj7o5tpk5r5b54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNiZOwkGY6TifD12wfQxFMCkEXSIaqlSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581749744576-g7eoj0ttvqjoishtluvj7o5tpk5r5b54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
