@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:pharma_go_v1_app/features/aibmf/business_layer/dependencies/home_binding.dart';
 import 'package:pharma_go_v1_app/features/aibmf/business_layer/dependencies/login_binding.dart';
@@ -14,23 +15,31 @@ class AppPages {
   static const INITIAL = Routes.HOME;
   static final routes = [
     GetPage(
+      transition: Transition.rightToLeft,
+      curve: Curves.easeIn,
       name: Paths.SPLASH,
       page: () => const SplashScreen(),
       binding: SplashBinding(),
     ),
     GetPage(
+      transition: Transition.rightToLeft,
+      curve: Curves.easeIn,
       name: Paths.HOME,
       page: () => const HomePage(),
       binding: HomeBinding(),
     ),
     GetPage(
+      transition: Transition.rightToLeft,
+      curve: Curves.easeIn,
       name: Paths.REGISTRATION,
       page: () => const RegirtrationPage(),
       binding: RegistrationhBinding(),
     ),
     GetPage(
+      transition: Transition.rightToLeft,
+      curve: Curves.easeIn,
       name: Paths.LOGIN,
-      page: () =>  LoginPage(),
+      page: () => const LoginPage(),
       binding: LogingBinding(),
     ),
   ];
